@@ -1,0 +1,44 @@
+body{
+	text-align: center;
+	font-family: verdana;
+	background-color: #FFEECD;
+	padding-bottom: 50pt;
+}
+
+header{
+	font-size: 400%;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: justify;
+	text-align: center;
+	padding-top: 30pt;
+	color: #FFEECD;
+	
+}
+
+h2{
+	font-size: 86%;
+	line-height: 2%;
+}
+
+h1 {
+	font-size: large;
+	padding-bottom: 50pt;
+	padding-top: 5pt;
+	color: white;
+	text-shadow: 
+}
+	
+
+p {
+	padding-bottom: 10pt;
+}
+footer{
+	padding-top: 50pt;
+	padding-left: 50pt;
+	color: #C6080A;
+	text-align: left;
+}
+iframe{
+	padding: 20pt;
+}
