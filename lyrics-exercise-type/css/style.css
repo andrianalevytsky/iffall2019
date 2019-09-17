@@ -1,0 +1,41 @@
+body{
+	font-family: "Open sans";
+	font-size: 10pt;
+	background-color: #FBC0B6;
+	color: white;
+}
+header{
+	float: left;
+	width: 50%;
+	line-height: 2em;
+	color: #A91701;
+	padding-bottom: 535pt;
+}
+h1{
+	font-family: Amador;
+	text-transform: uppercase;
+}
+div{
+	float: left;
+	width: 50%;
+}
+iframe{
+	padding-top: 20pt;
+}
+footer{
+	font-size: 6pt;
+	color: #A91701;
+	padding: 5pt;
+}
+p{
+	padding: 5pt;
+}
+.verse{
+	background-color: #FB6A54;
+}
+.bridge{
+	font-style: italic;
+}
+.chorus{
+	font-weight: 700;
+}
