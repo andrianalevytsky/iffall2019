@@ -1,0 +1,90 @@
+body{
+	font-family: "Crimson text";
+	font-size: 16px;
+	line-height: 1;
+}
+h1{
+	color: white;
+	text-transform: capitalize;
+}
+h3{
+	font-size: 16pt;
+	font-family: sans-serif;
+	color: pink;
+	padding-top: 15pt;
+	padding-bottom: 2pt;
+
+
+}
+h4{
+	font-size: 6pt;
+	color: gray;
+	font-family: sans-serif;
+	padding-left: 20pt;
+}
+header{
+	float: left;
+	width: 50%
+	padding-top: 200pt;
+	border-width: thick;
+	background-color: pink;
+	padding-right: 20pt;
+	padding-bottom: 750pt;
+	padding-left: 20pt;
+}
+p{
+	flex: left;
+	width: 50%;
+	border-width: thick;
+	background-color: white;
+
+}
+section{
+	padding-left: 20pt;
+}
+div{
+	padding-left: 20pt;
+}
+#weightnormal{
+font-weight: 400;
+}
+#weightsemibold{
+	font-weight: 600;
+}
+#weight-bold{
+	font-weight: 700;
+}
+#style-normal{
+	font-style: normal;
+}
+#style-italic{
+	font-style: italic;
+}
+#three{
+letter-spacing: .3em;
+}
+#negative{
+	letter-spacing: -.06em;
+}
+.none{
+	text-transform: none;
+	text-decoration: none;
+}
+#uppercase{
+	text-transform: uppercase;
+}
+#lowercase{
+	text-transform: lowercase;
+}
+#capitalize{
+	text-transform: capitalize;
+}
+#underline{
+	text-decoration: underline;
+}
+#linethrough{
+	text-decoration: line-through;
+}
+#overline{
+	text-decoration: overline;
+}
