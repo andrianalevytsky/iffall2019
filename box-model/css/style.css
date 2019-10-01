@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	padding: 0; /*gets rid of white spaces around borders*/
+}
+section{
+	background-color: pink;
+}
+
+div{
+	background-color: rgba(0,0,255,0.5);
+	border: 1px solid green;
+	margin: 100px;
+	margin: 20px auto; /*defining top, right, bottom, left (aka clockwise). auto just makes left and right equal to each other*/
+			/* if you proved only 2 values first value is top and bottom and the second defines left and right*/
+	height: 200px;
+	width: 80%;
+	max-width: 500px; /*will be 80% of screen but will cap off at 500px (will not get bigger than 500px)*/
+	padding: 1em 3em;
+	box-sizing: border-box;
+	overflow: scroll; /*other properties are scroll and hidden. on pcs scroll will have very ugly scroll bars*/
+	display: inline-block; /*just inline will loose styling relating to margin, padding, etc. inline-block is the compromise for this, it still puts divs next to each other when the screen is small enough*/
+}
+div:after{
+	content: "";
+	display: block;
+	clear:both; /* can clear left, right, or both. Means it will break float*/
+}
+section:first-child{
+	margin-top: 0;
+}
+img{
+	width: 100px;
+	height: auto;
+	float: left;
+	margin: 10px;
+}
