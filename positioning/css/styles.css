@@ -1,0 +1,40 @@
+section.section1{
+	position: relative;
+}
+aside.floatright{
+	float: right;
+	display: inline-block;
+}
+aside.rightcorner{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+section.section2{
+	position: relative;
+}
+aside.upperright{
+	background-color: green;
+	position: fixed;
+	top:0px;
+	right: 0px;
+}
+section.section3{
+	position: relative;
+}
+aside.red{
+	background-color: red;
+	position: absolute;
+	z-index: 10;
+}
+aside.black{
+	background-color: black;
+	position:absolute;
+	margin: 10px 10px;
+}
+aside.center{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

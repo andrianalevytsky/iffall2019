@@ -1,36 +1,101 @@
 body{
-	margin: 0;
-	padding: 0; /*gets rid of white spaces around borders*/
+	font-family:"Archivo Narrow";
+	background-color: #edfffe;
 }
-section{
+h1{
+	margin: 0 0 0px 0;
+	font-size: 80px;
+	padding: 0;
+}
+h2{
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+
+}
+h3{
+	margin: 0 0 32px 0;
+	text-align: center;
+	font-size: 40px;
+	padding: 0;
+}
+p{
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: -.4px;
+	line-height: 1.4;
+}
+header{
+	background-color: rgba(255,0,0,.5);
+	text-align: center;
+	padding: 150px 0 183px 0;
+	background-image: url('../images/mariah_fucking_shit_up.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+section > div {
+	width: 960px;
+	margin: auto;
+	padding:42px 0 0 0;
+}
+section.section_one{
+	background-color: pink;
+	padding-bottom: 29px;
+}
+.section_one img{
+	float: right;
+	width: 400px;
+	height: 300px;
+	margin-top: 0;
+	padding: 0;
+	margin-left: 28px;
+	margin-bottom: 35px;
+}
+section.section_two{
+	background-color: #edfffe;
+	margin: 0;
+	padding: 0 0 42px 0;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li{
+	width: 50%;
+	height: 174px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+li img{
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+h4{
+	font-size: 20px;
+	margin: 0 0 5px 0;
+}
+li p{
+	margin: 0 40px 0 0;
+}
+section.section_three{
 	background-color: pink;
 }
-
-div{
-	background-color: rgba(0,0,255,0.5);
-	border: 1px solid green;
-	margin: 100px;
-	margin: 20px auto; /*defining top, right, bottom, left (aka clockwise). auto just makes left and right equal to each other*/
-			/* if you proved only 2 values first value is top and bottom and the second defines left and right*/
-	height: 200px;
-	width: 80%;
-	max-width: 500px; /*will be 80% of screen but will cap off at 500px (will not get bigger than 500px)*/
-	padding: 1em 3em;
-	box-sizing: border-box;
-	overflow: scroll; /*other properties are scroll and hidden. on pcs scroll will have very ugly scroll bars*/
-	display: inline-block; /*just inline will loose styling relating to margin, padding, etc. inline-block is the compromise for this, it still puts divs next to each other when the screen is small enough*/
+.section_three p{
+	text-align: center;
+	margin: 0;
+	padding: 0 127px 96px 127px;
+	font-size: 25px;
+	letter-spacing: -.1;
 }
-div:after{
-	content: "";
-	display: block;
-	clear:both; /* can clear left, right, or both. Means it will break float*/
-}
-section:first-child{
-	margin-top: 0;
-}
-img{
-	width: 100px;
-	height: auto;
-	float: left;
-	margin: 10px;
+section.copyright{
+	font-size: 17px;
+	font-weight: bold;
+	background-color: #edfffe;
+	padding-bottom: 50px;
 }
