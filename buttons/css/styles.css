@@ -1,0 +1,196 @@
+a{
+	transition: 0.3s;
+}
+a#btn_ideo {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	box-sizing: border-box;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	font-weight: bold;
+	letter-spacing: 7px;
+	font-size: 30pt;
+}
+a#btn_ideo:hover {
+	color: orange;
+}
+a#btn_apple {
+				display: inline-block;
+				margin:auto;
+				margin-top: 0px;
+				padding: 25px 65px 25px;
+				background-color: #fff;
+				color: black;
+				font-size: 100pt;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				border-radius: 110px;
+			}
+
+a#btn_apple:hover {
+				color: #fff;
+				background-color: black;
+				border-radius: 110px;
+			}
+a#btn_fb {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				color: white;
+				background-color: #4267b2;;
+				font-family: sans-serif;
+				text-decoration: none;
+				font-size: 100pt;
+			}
+a#btn_fb:visited {
+	color: white;
+}
+a#btn_fb:hover{
+	color: #4267b2;
+	background-color: white;
+}
+image#newyorker{
+    margin-top: 110px;
+    margin-left: 0px;
+    padding: 0;
+}
+
+a#btn_newyorker {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				margin-left: 0px;
+				padding: 0px;
+				text-decoration: none;
+			}
+a#btn_newyorker:hover {
+				box-shadow: 2px 2px 5px rgba(0,0,0,0.3); 
+			}
+a#btn_cn {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 10px;
+				background-color: white;
+				color: black;
+				font-size: 15px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bolder;
+				text-decoration: none;
+			}
+
+a#btn_cn:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				color: white;
+				background-color: black;
+			
+			}
+a#btn_lyft {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 50px;
+				padding: 0px 25px 150px;
+				background-color: white;
+				border: 2px solid #eb1478;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				text-orientation: center;
+				margin-left: 0px;
+			}
+
+a#btn_lyft:hover {
+				background-color: #fff;
+				border: 5px solid #000;
+				color: #000;
+			}
+a#btn_coke:hover {
+	transform: rotate(360deg);
+	display: inline-block;
+				margin:auto;
+				margin-top: 10px;
+				margin-left: 0px;
+				padding: 0px;
+				text-decoration: none;
+}
+a#btn_harley {
+				display: inline-block;
+				margin:auto;
+				margin-top: 10px;
+				margin-left: 0px;
+				padding: 0px;
+				text-decoration: none;
+			}
+a#btn_harley:hover {
+				transform: scale(1.2); 
+				display: inline-block;
+				margin:auto;
+				margin-top: 10px;
+				margin-left: 0px;
+				padding: 0px;
+				text-decoration: none;
+			}
+a#btn_npr {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: black;
+				font-family: 'Gotham SSm',Helvetica,Arial,sans-serif;
+				font-size: 40pt;
+				text-decoration: none;
+				letter-spacing: 3px;
+				font-weight: bolder;
+				letter-spacing: 10px;
+			}
+a#btn_npr:hover {
+	background-color: red;
+	color: white;
+}
+a#btn_craigslist {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: blue;
+				font-family: "Times New Roman",Times,serif;
+				font-size: 40pt;
+				text-decoration: none;
+			}
+a#btn_craigslist:hover {
+	color: orange;
+	transform: scale(1.2);
+}
+a#btn_nerf {
+	font-family: proxima-nova,sans-serif;
+	box-sizing: border-box;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	font-weight: bold;
+	font-size: 30pt;
+	text-transform: uppercase;
+}
+a#btn_nerf:hover {
+	color: white;
+	background-color: orange;
+	transform: rotate(15deg);
+

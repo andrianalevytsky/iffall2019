@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons &mdash; James Fawcett</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="css/styles.css" rel="stylesheet"></link>
+		
+		<style>
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				font-size: 50pt;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 60px;
+				margin: auto;
+				margin-top: 50px;
+				padding: 10px 25px 100px 25px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 9px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #fff;
+				color: #56cdf1;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				color: white;
+				background-color: #56cdf1;
+			
+			}
+
+
+			a#btn_instagram {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5a32fc+0,e62ef7+50,e628ff+52,fff200+100 */
+background: rgb(90,50,252); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(90,50,252,1) 0%, rgba(230,46,247,1) 50%, rgba(230,40,255,1) 52%, rgba(255,242,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(90,50,252,1) 0%,rgba(230,46,247,1) 50%,rgba(230,40,255,1) 52%,rgba(255,242,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(90,50,252,1) 0%,rgba(230,46,247,1) 50%,rgba(230,40,255,1) 52%,rgba(255,242,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a32fc', endColorstr='#fff200',GradientType=0 ); /* IE6-9 */
+
+			}
+
+			a#btn_instagram:hover {
+				transform: scale(1.5);
+			}
+
+
+			a#btn_kors {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: black;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_kors:hover {
+				color: #fff;
+				background-color: black;
+			}
+			a#btn_fb {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				color: blue;
+				color: #eb1478;
+				font-family: sans-serif;
+				font-size: 100px;
+				text-decoration: none;
+				font-size: 40pt;
+				border-radius: 4px;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		
+		<div id="main_content">
+
+			<h1>Button Styling &mdash; Andriana Levytsky</h1>
+			
+			<div class="button_container">
+				<a href="http://www.spotify.com" target="_blank" id="btn_spotify"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.instagram.com/" target="_blank" id="btn_instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.twitter.com" target="_blank" id="btn_twitter"><i class="fa fa-twitter" aria-hidden="true"></i> twitter</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.michaelkors.com/" target="_blank" id="btn_kors">michael kors</a>
+			</div>
+			<div class="button_container">
+				<a href="http://ideo.org" target="_blank" id="btn_ideo">IDEO</a>
+			</div>
+			<div class="button_container">
+				<a href="http://www.apple.com/" target="_blank" id="btn_apple"><i class="fa fa-apple" aria-hidden="true"></i></a>
+			</div>
+			<div class="button_container">
+				<a href="https://www.facebook.com/" target="_blank" id="btn_fb">f</a>
+			</div>
+			<div class="button_container">
+				<a href="http://www.newyorker.com/" target="_blank" id="btn_newyorker"><img id="newyorker" src="images/The_New_Yorker.jpg" alt="The New Yorker"></a>
+			</div>
+			<div class="button_container">
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cn">CARTOON NETWORK</a>
+			</div>
+			<div class="button_container">
+				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft"><img id="lyft" src="images/lyft.jpg" alt="Lyft"></a>
+			</div>
+			<div class="button_container">
+				<a href="http://www.coca-cola.com/" target="_blank" id="btn_coke"><img id="coke" src="images/cocaCola.jpg" alt="Coke"></a>
+			</div>
+			<div class="button_container">
+				<a href="http://www.harley-davidson.com/" target="_blank" id="btn_harley"><img id="coke" src="images/harley.png" alt="motorcycle"></a>
+			</div>
+			<div class="button_container">
+				<a href="http://www.npr.org/" target="_blank" id="btn_npr">npr</a>
+			</div>
+			<div class="button_container">
+				<a href="http://stlouis.craigslist.org/" target="_blank" id="btn_craigslist">craigslist</a>
+			</div>	
+			<div class="button_container">
+				<a href="http://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf"><em>nerf<em></a>
+			</div>	
+
+	</body>
+</html>
