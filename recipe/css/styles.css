@@ -1,0 +1,86 @@
+body{
+	font-size: 15pt;
+	font-family: raleway, sans-serif;
+	color: gray;
+	line-height: 1.3em;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: 40pt;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: teal;
+	font-family: "Playfair Display", serif;
+	margin-left: 18px;
+
+}
+h2{
+	text-transform: uppercase;
+	font-size: 25pt;
+	background-color: teal;
+	margin:0;
+}
+.expand {
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  outline: none;
+  text-transform: uppercase;
+	font-size: 25pt;
+	background-color: teal;
+	margin: 0;
+	color: white;
+}
+.active, .expand:hover {
+  background-color: teal;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.expand:after {
+  content: '+';
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+  font-size: 20pt;
+}
+.active:after {
+  content: "-";
+  color: white;
+  font-size: 20pt;
+}
+a#top{
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	display: inline-block;
+	margin: 50px 0 50px 0;
+	color: gray;
+	font-size: 12pt;
+}
+li{
+	margin-bottom: 2px;
+}
+button{
+	font-family: "Playfair Display", serif;
+}
+.yield{
+	font-family: raleway, sans-serif;
+	color: gray;
+	padding: 25px 25px 50px 25px;
+	line-height: 1.5em;
+}
+strong{
+	font-family: "Playfair Display", serif;
+}
+img{
+	width: 100%;
+}
