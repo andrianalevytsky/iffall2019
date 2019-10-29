@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800i&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<header>
+		<h1>Borscht</h1>
+		<img src="images/borscht_for_iphone_x.jpg" id="Borscht" alt="Borscht">
+	</header>
+	<div class="yield box">
+		<strong>Yield</strong> 12 servings <br>
+		<strong>Time</strong> 2.5 hrs
+	</div>
+
+
+	<button type="button" class="expand">Ingredients</button>
+		<div class="content">
+			 <ul>
+				<li>Beef or Pork, 2 pounds</li>
+				<li>1 14.5 oz can of diced tomatoes</li>
+				<li>4 young beets, with tops</li>
+				<li>3 carrots, thinly sliced or grated</li>
+				<li>2 stalks celery, thinly sliced or grated</li>
+				<li>1 medium onion, diced</li>
+				<li>1/4 head of green cabbage, shredded</li>
+				<li>4 cups water, boiling</li>
+				<li>Salt (or bullion), to taste</li>
+				<li>Paprika, to taste</li>
+			</ul>
+		</div>
+
+
+		<button type="button" class="expand">Directions</button>
+		<div class="content">
+			  <ol>
+				<li>Dredge meat in seasoned flour and brown in stock pot<img src="images/meat.jpg" id="meat" alt="meat"></li>
+				<li>Add tomatoes (with juice) and water</li>
+				<li>Bring to a boil, then cover and simmer</li>
+				<li>Separate beets from tops, peel beets, slice and throw them in the pot<img src="images/peeling-beets.jpg" id="beets" alt="beets"></li>
+				<li>Sauté the onion, clerey and carrots; throw them in the pot<img src="images/sautee.jpg" id="sautee" alt="sautee"></li>
+				<li>Shred the cabbage; throw it in the pot<img src="images/How-to-Shred-Cabbage.jpg" id="cabbage" alt="cabbage"></li>
+		
+				<li>Chop up the beet greens, then add them to the pot</li>
+				<li>Simmer a total of 2 hours from when the meat first started to simmer (or until the meat is done)</li>
+				<li>Add salt and paprika, to taste</li>
+				<li>Serve with dill and sour cream<img src="images/Borscht_served.jpg" id="serve" alt="serve"></li>
+			</ol>
+		</div>
+		<div class="box enjoy">Enjoy!</div>
+<script type="text/javascript">
+		var coll = document.getElementsByClassName("expand");
+			var i;
+			console.log(coll, coll.length);
+			for (i = 0; i < coll.length; i++) {
+				console.log(i);
+			  coll[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var content = this.nextElementSibling;
+			    if (content.style.display === "block") {
+			      content.style.display = "none";
+			    } else {
+			      content.style.display = "block";
+			    }
+			  });
+			}
+</script>
+</body>
+</html>
