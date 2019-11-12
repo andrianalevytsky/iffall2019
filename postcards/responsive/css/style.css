@@ -1,0 +1,104 @@
+html,
+body {
+	height: 100%;
+}
+a{
+	position: absolute;
+	z-index: 20px;
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: Neuton, serif;
+	display: block;
+	background-color: pink;
+	background-image: url('../images/icecream.png');
+	background-size: 100%;
+	height: 100%;
+	background-position:right bottom;
+	margin: 0;
+}
+body#icecream div.quote{
+display: block;
+text-shadow: 2px 2px 15px #cc0066;
+/*margin: auto;*/
+position: absolute;
+left: 50%;
+top: 5%;
+transform: translate(-50%, 0%);
+margin: 0;
+font-size: 1.5em;
+}
+div.speaker{
+	position: absolute;
+	right: 0;
+	right-padding: 10px;
+
+}
+body#icecream{
+	height: 100%;
+	background-image: url('../images/icecream.png');
+	background-size: cover;
+	background-position: center 225px;
+	background-repeat: no-repeat;
+	/*margin: 75px 0px 0px 250px;*/
+	color: white;
+	font-size: 2em;
+}
+@media(max-width: 500px){
+	body#icecream{
+		background-position: center bottom;
+		background-size: 100%;
+		margin: 0;
+	}
+	
+}
+@media(max-width: 650px){
+	body#icecream div.quote{
+		position: absolute;
+		font-size: .5em;
+		position: absolute;
+		top: 0%
+		left:50%;
+	}
+}
+
+/*@media (max-width: 1400px){
+	body#icecream{
+	background-position: 40% -20%;
+	font-size: 3em;
+}
+}
+@media (max-width: 950px){
+	body#icecream{
+	background-position: 50% bottom;
+	font-size: 2em;
+	margin-left: 3em;
+	margin:0;
+	position: absolute;
+}
+	div{
+		position: relative;
+		left: 50%;
+		top: 20%;
+		transform: translate(-50%, -50%);
+	}
+}
+@media (max-width: 600px){
+	body#icecream{
+		background-position: 0 -100%;
+	}
+}
+@media (max-width: 500px){
+	body#icecream{
+		background-position: 0 -100%;
+		font-weight: 1.5em;
+	}
+}
+@media (max-width: 400px){
+	body#icecream{
+		background-position: 50% bottom;
+		font-size: 1.25em;
+	}
+}
+*/
